@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, p, blockquote {
+  margin: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 8px 32px;
+  font-weight: 700;
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 8px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 96px 8px;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.hero .title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero .text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.info {
+  background-color: #ffffff;
+  padding: 48px 8px;
+}
+
+.info .container {
+  text-align: center;
+  width: 800px;
+}
+
+.info .title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 48px;
+}
+
+.info .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 64px; */
+  margin-bottom: 48px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card img {
+  width: 142px;
+  height: auto;
+  border-style: solid;
+  border-color: #3882f6;
+  border-width: 4px;
+  border-radius: 16px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 96px 8px;
+}
+
+.quote .container {
+  width: 800px;
+}
+
+.quote .source {
+  width: max-content; 
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.action {
+  background-color: #ffffff;
+  padding: 96px 8px;
+}
+
+.action .modal {
+  width: 800px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  gap: 100px;
+}
+
+.action .btn {
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 2px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 50px 8px;
+}
